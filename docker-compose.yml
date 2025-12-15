@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  playwright-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: playwright-api-tests
+    volumes:
+      - ./back:/app/back:ro
+      - ./test-results:/app/test-results
+    environment:
+      - PYTHONUNBUFFERED=1
+      - REQRES_API_KEY=${REQRES_API_KEY}
+    command: pytest back/test/ -v --tb=short --html=test-results/report.html --self-contained-html
+    networks:
+      - test-network
+
+networks:
+  test-network:
+    driver: bridge
