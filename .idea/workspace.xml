@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d379d612-7d37-42ad-ade9-1f32996174b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Backend_Code_Assessment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/test/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/test/test_api_reqres.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/test/base_test.py" afterDir="false" />
+    <list default="true" id="d379d612-7d37-42ad-ade9-1f32996174b3" name="Changes" comment="Test Assessment API">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/test/test_api_reqres.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/test/test_api_reqres.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +16,37 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "searchQuery": "additional api and generic tests",
+      "state": "OPEN",
+      "assignee": "Kovalchm"
+    }
+  ],
+  "lastFilter": {
+    "searchQuery": "additional api and generic tests",
+    "state": "OPEN",
+    "assignee": "Kovalchm"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kovalchm/Backend_Code_Assessment.git&quot;,
+    &quot;accountId&quot;: &quot;08defd8d-53dd-4c7b-964c-e62f85b4bc83&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="36sbrQwqaiNa67YpdcKWWu6RctO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,21 +56,29 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test_api_reqres.test_api_responds.executor": "Run",
+    "Python tests.Python tests for test_api_reqres.test_api_responds.executor": "Debug",
     "Python tests.Python tests for test_api_reqres.test_create_user.executor": "Run",
     "Python tests.Python tests for test_api_reqres.test_delete_user_by_id.executor": "Run",
     "Python tests.Python tests for test_api_reqres.test_dynamic_delete_user.executor": "Run",
     "Python tests.Python tests for test_api_reqres.test_get_single_user.executor": "Run",
-    "Python tests.Python tests for test_api_reqres.test_login_user.executor": "Run",
+    "Python tests.Python tests for test_api_reqres.test_head_single_user_exists.executor": "Run",
+    "Python tests.Python tests for test_api_reqres.test_head_users.executor": "Run",
+    "Python tests.Python tests for test_api_reqres.test_login_user.executor": "Debug",
+    "Python tests.Python tests for test_api_reqres.test_login_wrong_password_no_token.executor": "Run",
+    "Python tests.Python tests for test_api_reqres.test_missing_token_rejected.executor": "Run",
+    "Python tests.Python tests for test_api_reqres.test_options_cors_headers.executor": "Debug",
+    "Python tests.Python tests for test_api_reqres.test_options_users.executor": "Run",
+    "Python tests.Python tests for test_api_reqres.test_token_returned_on_login.executor": "Run",
     "Python tests.Python tests for test_api_reqres.test_update_user.executor": "Run",
     "Python tests.Python tests for test_api_simple.test_health_check.executor": "Run",
+    "Python.Tst_class.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_api_reqres.test_login_user">
-    <configuration name="Python tests for test_api_reqres.test_create_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_api_reqres.test_login_wrong_password_no_token">
+    <configuration name="Python tests for test_api_reqres.test_head_single_user_exists" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Backend_Code_Assessment" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,37 +89,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_reqres.test_create_user&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_api_reqres.test_delete_user_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Backend_Code_Assessment" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/back/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_reqres.test_delete_user_by_id&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_api_reqres.test_dynamic_delete_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Backend_Code_Assessment" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/back/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_reqres.test_dynamic_delete_user&quot;" />
+      <option name="_new_target" value="&quot;test_api_reqres.test_head_single_user_exists&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -119,7 +108,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_api_reqres.test_update_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_api_reqres.test_login_wrong_password_no_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Backend_Code_Assessment" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,17 +119,47 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_reqres.test_update_user&quot;" />
+      <option name="_new_target" value="&quot;test_api_reqres.test_login_wrong_password_no_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_api_reqres.test_missing_token_rejected" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Backend_Code_Assessment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/back/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api_reqres.test_missing_token_rejected&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_api_reqres.test_token_returned_on_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Backend_Code_Assessment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/back/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api_reqres.test_token_returned_on_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_api_reqres.test_login_wrong_password_no_token" />
+        <item itemvalue="Python tests.Python tests for test_api_reqres.test_missing_token_rejected" />
+        <item itemvalue="Python tests.Python tests for test_api_reqres.test_token_returned_on_login" />
         <item itemvalue="Python tests.Python tests for test_api_reqres.test_login_user" />
-        <item itemvalue="Python tests.Python tests for test_api_reqres.test_update_user" />
-        <item itemvalue="Python tests.Python tests for test_api_reqres.test_delete_user_by_id" />
-        <item itemvalue="Python tests.Python tests for test_api_reqres.test_dynamic_delete_user" />
-        <item itemvalue="Python tests.Python tests for test_api_reqres.test_create_user" />
+        <item itemvalue="Python tests.Python tests for test_api_reqres.test_head_single_user_exists" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +178,30 @@
       <option name="presentableId" value="Default" />
       <updated>1765798425314</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test Assessment API">
+      <option name="closed" value="true" />
+      <created>1765835624552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765835624552</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Assessment API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Assessment API" />
   </component>
 </project>
